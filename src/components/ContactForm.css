@@ -1,0 +1,10 @@
+.round-contact{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #00bd56;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

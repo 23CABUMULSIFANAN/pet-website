@@ -1,0 +1,53 @@
+
+.ask{
+    margin-top: 60px
+}
+.question{
+    margin-top: 60px;
+    font-weight: bolder;
+}
+.details{
+    display: flex;
+     margin-top: 50px;
+    gap: 20px;
+     align-items: top;
+}
+.rounds{
+    height: 80px;
+    width: 80px;
+    background-color: #00bd56;
+    color: white;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.doctor{
+    font-size: 30px;
+    
+}
+.dog-img{
+    text-align: center;
+    height: 600px;
+    
+   
+}
+.care{
+font-weight: bold;
+}
+.counting{
+    background-color: #00bd56;
+    color: white;
+    padding: 20px;
+}
+.count1{
+    font-size: 65px;
+    font-weight: bolder;
+    text-align: center;
+}
+.profession{
+    text-align: center;
+    font-size: large;
+}

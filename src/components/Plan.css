@@ -1,0 +1,85 @@
+.plan-h2{
+    text-align: center;
+    padding-top: 80px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.plan-p{
+    color: grey;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+/* Card */
+.card-plan{
+    border-radius: 20px;
+    background-color: white;
+    height: 450px;
+    padding: 30px 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+/* Icon */
+.icon-box{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #7affb6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00bd56;
+    font-size: 35px;
+    margin: 0 auto 20px auto;
+}
+
+/* Plan title */
+.plan-h3{
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+/* Description */
+.plan-para{
+    color: grey;
+    margin-bottom: 10px;
+}
+
+/* Price section */
+.amt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.amount{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+/* Button */
+.button1{
+    height: 40px;
+    width: 200px;
+    border:1px solid #00bd56;
+    border-radius: 10px;
+    background-color:#00bd56;
+    color: white;
+    display: block;
+    margin: 20px auto 0 auto;
+    transition: 0.3s;
+}
+
+.button1:hover{
+    background-color: white;
+    color: #00bd56;
+}
+.card-plan:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}

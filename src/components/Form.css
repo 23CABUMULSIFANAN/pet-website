@@ -1,0 +1,58 @@
+.bg-3{
+    background-image: url("images/bg_3.webp");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.form-card{
+    background: linear-gradient(#02b861,#188fd1);
+    height: 700px;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.form-h1{
+    color: white;
+    font-weight: bolder;
+}
+
+.drop{
+    background-color: white;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.dropdown-item:active{
+    background-color: blue;
+    color: white;
+}
+.inp{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+}
+.inp-BTN{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    padding-left: 20px;
+    background-color: #02b861;
+    color: white;
+    font-weight: bold;
+    
+}
+.inp-BTN:hover{
+    background-color: transparent;
+    border: 1px solid #02b861;
+    color: #02b861;
+}

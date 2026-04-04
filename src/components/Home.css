@@ -1,0 +1,148 @@
+body{
+    background-color: #fafbfb;
+}
+.content{
+   background:
+linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+url("./images/bg_1.webp");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.tag-line{
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    text-align: center;
+}
+.btn1{
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   gap:10px;
+   padding-bottom: 90px;
+   
+}
+.btn-content{
+
+     padding: 15px 40px;
+     color: white;
+     background-color: #00bd56;
+     border: none;
+     border-radius: 5px;
+     font-weight: bolder;
+     letter-spacing: 1px;
+     font-size: smaller;
+}
+.btn-content:hover{
+    background-color: transparent;
+    color: #00bd56;
+    border:1px solid #00bd56;
+}
+.box,.box2,.box3{
+   height: fit-content;
+  border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    background-color: #00bd56;
+    margin-top: -80px;
+    color: white;
+    
+}
+@media (max-width:557px){
+    .box2,.box3
+{
+    margin-top: 70px;
+}   
+}
+
+.round{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(240, 238, 238);
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box3,.box2{
+    background-color: white;
+    color: black;
+}
+.box2:hover {
+    background-color:#00bd56;
+    color: white;
+}
+.box2:hover .round2{
+    background-color: white;
+    color: #00bd56;
+    transform: translateX(1px);
+    
+}
+.box3:hover {
+    background-color:#00bd56;
+    color: white;
+}
+.box3:hover .round3{
+    background-color: white;
+    color: #00bd56;
+    transform: translateX(1px);
+   
+}
+.dog{
+    font-size: 30px;
+    color: #00bd56;
+}
+.box-content{
+    
+    text-align: center;
+    padding-top: 80px;
+    font-weight: bolder;
+
+}
+.box-para,.box-para1,.box-para2{
+    
+    font-size: medium;
+    padding: 20px;
+    
+}
+.round1,.round2,.round3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00bd56;
+}
+.round2,.round3{
+    background-color: #00bd56;
+    color: white;
+}.pet{
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+#box-for{
+    background-color: white;
+    color: black;
+}
+#round-for{
+    background-color: #00bd56;
+    color: white
+}

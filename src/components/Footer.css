@@ -1,0 +1,81 @@
+.foot{
+    height: max-content;
+    background-color: black;
+    padding: 100px;
+}
+
+.pet-h3{
+    color: white;
+    font-weight: 700;
+}
+.foot hr{
+    width: 60px;
+    height: 5px;
+    background-color: #06fa74;
+
+    border: none;
+    margin: 20px 0;
+}
+.pet-p{
+    color: rgb(219, 216, 216);
+    font-size: large;
+}
+.round-app{
+    background-color: #313131;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4dff9d;
+
+}
+.round-app:hover{
+    color: white;
+}
+.foot-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+
+}
+.foot a{
+    color: white;
+    
+    font-size: large;
+}
+.foot p{
+    font-size: small;
+    
+    color: grey;
+}
+.anchor{
+     color: white;
+    text-decoration: none;
+    font-size: large;
+    text-decoration: none;
+}
+.anchor:hover{
+    color: #06fa74;
+    text-decoration: underline;
+}
+.foot a:hover{
+    text-decoration: none;
+}
+.foot li{
+    margin-top: 30px;
+    list-style: none;
+}
+#map{
+   font-size: large;
+    color: grey;
+}
+.footerelement{
+    text-align: center;
+    color: grey;
+    font-size: larger;
+    margin-top: 30px;
+}
+
