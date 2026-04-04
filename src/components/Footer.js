@@ -41,18 +41,18 @@ export default function Footer(){
                      <div className="d-flex gap-3">
                         <img src={Image} alt="dog" className="foot-img"></img>
                     <div>
-                        <a href="#" className="anchor">Even all the powerful pointing has no powerfull control about</a>
+                        <a href="/" className="anchor">Even all the powerful pointing has no powerfull control about</a>
                       
                          
-                    <a href="#">
+                    <a href="/">
                         <p className="pt-2"><SlCalender />April,25,2035</p>
                     </a>
                       
                       <div className="d-flex gap-1 align-items-center">
                         
-                        <a href="#"><p className="pt-2"><CiUser />Admin</p></a>
+                        <a href="/"><p className="pt-2"><CiUser />Admin</p></a>
                        
-                        <a href="#"><p className="pt-2"><FiMessageCircle />19</p></a>
+                        <a href="/"><p className="pt-2"><FiMessageCircle />19</p></a>
                         
                       </div>
 
@@ -61,18 +61,18 @@ export default function Footer(){
                     <div className="d-flex gap-3">
                         <img src={Image2} alt="dog" className="foot-img"></img>
                     <div>
-                        <a href="#" className="anchor">Even all the powerful pointing has no powerfull control about</a>
+                        <a href="/" className="anchor">Even all the powerful pointing has no powerfull control about</a>
                       
                          
-                    <a href="#">
+                    <a href="/">
                         <p className="pt-2"><SlCalender />April,25,2035</p>
                     </a>
                       
                       <div className="d-flex gap-1 align-items-center">
                         
-                        <a href="#"><p className="pt-2"><CiUser />Admin</p></a>
+                        <a href="/"><p className="pt-2"><CiUser />Admin</p></a>
                        
-                        <a href="#"><p className="pt-2"><FiMessageCircle />19</p></a>
+                        <a href="/"><p className="pt-2"><FiMessageCircle />19</p></a>
                         
                       </div>
 
@@ -85,12 +85,12 @@ export default function Footer(){
                     <hr></hr>
                     <div>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Works</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Services</a></li>
+                            <li><a href="/">Works</a></li>
+                            <li><a href="/">Blogs</a></li>
+                            <li><a href="/">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -98,8 +98,8 @@ export default function Footer(){
                     <h3 className="pet-h3">Have a Question?</h3>
                     <hr></hr>
                     <p id="map"><FaMap />203 Fake St. Mountain View, San Francisco, California, USA</p>
-                    <a href="#"><p><FaPhoneAlt /> +1234 567 890</p></a>
-                    <a href="#"><p><BiLogoTelegram />info@yourdomain.com</p></a>
+                    <a href="/"><p><FaPhoneAlt /> +1234 567 890</p></a>
+                    <a href="/"><p><BiLogoTelegram />info@yourdomain.com</p></a>
                 </div>
                  
             </div>
