@@ -30,10 +30,10 @@ export default function Form(){
                                 </button>
 
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item active" href="#">Select Services</a></li>
-                                    <li><a className="dropdown-item" href="#">Cat sitting</a></li>
-                                    <li><a className="dropdown-item" href="#">Dog walking</a></li>
-                                    <li><a className="dropdown-item" href="#">Pet care</a></li>
+                                    <li><a className="dropdown-item active" href="/">Select Services</a></li>
+                                    <li><a className="dropdown-item" href="/">Cat sitting</a></li>
+                                    <li><a className="dropdown-item" href="/">Dog walking</a></li>
+                                    <li><a className="dropdown-item" href="/">Pet care</a></li>
                                 </ul>
 
                             </div>
